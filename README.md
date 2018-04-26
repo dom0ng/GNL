@@ -25,7 +25,11 @@ This project consist of writing a function get_next_line which get the next line
 ### How does it work?
 
 
-To create that executable, after downloading/cloning this project, **cd** into the project, copy all the files from the sub folders to the root directory and finally, then compile:
+To create that executable, after downloading/cloning this project, **cd** into the project, copy all the files from the sub folders to the root directory and finally, then compile: 
 
 	git clone https://github.com/dom0ng/GNL
 	cd GNL
+	gcc main.c get_next_line.c libft/libft.a
+	/a.out example.txt
+
+*Dont forgot to compile the library before.
